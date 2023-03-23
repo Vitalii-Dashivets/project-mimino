@@ -8,18 +8,26 @@
 @import url('./fonts/style-font.css');
 @import url('./base.css');
 @import url('./header.css');
-@import url('./hero.css');
-@import url('./advantages.css');
-@import url('./unique.css');
-@import url('./about.css');
-@import url('./products.css');
-@import url('./sellers.css');
-@import url('./reviews.css');
-@import url('./subscribe.css');
+@import url('./hp-hero.css');
+@import url('./hp-about-rest.css');
+@import url('./hp-rest.css');
+@import url('./hp-about-hotel.css');
+@import url('./hp-hotel.css');
+@import url('./hp-contacts.css');
 @import url('./footer.css');
 
-@import url('./modal-buy.css');
-@import url('./modal-thank.css');
-@import url('./modal-review.css');
-@import url('./modal-feedback.css');
-@import url('./modal-explore.css');
+@import url('./rest-hero.css');
+@import url('./rest-about-rest.css');
+
+@import url('./rest-menu.css');
+@import url('./hotel-hero.css');
+@import url('./hotel-lux.css');
+@import url('./hotel-two.css');
+@import url('./hotel-three.css');
+
+@import url('./room-hero.css');
+@import url('./room-about.css');
+
+@import url('./modal-table.css');
+@import url('./modal-room.css');
+@import url('./modal-price.css');
