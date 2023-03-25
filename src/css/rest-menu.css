@@ -1,0 +1,14 @@
+.container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.rest-menu-title {
+    width: 318px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height:calc(37 / 32);
+    text-transform: uppercase;
+    color: var(--footer-color);
+}
