@@ -11,4 +11,30 @@
     line-height:calc(37 / 32);
     text-transform: uppercase;
     color: var(--footer-color);
+    margin-bottom: 32px;
+}
+.table-menu-title {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    color: var(--footer-color);
+    text-align: start;
+    margin-bottom: 16px;
+}
+.table-menu-body-title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(17 / 14);
+    letter-spacing: 0.02em;
+    color: var(--footer-color);
+    
+}
+.table-menu-body-disk {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(12 / 10);
+    letter-spacing: 0.02em;
+    color: var(--footer-color);
 }
