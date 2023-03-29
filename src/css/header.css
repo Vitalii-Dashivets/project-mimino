@@ -1,12 +1,7 @@
 .header-section {
-  position: absolute;
+  position: fixed;
   width: 100%;
-  z-index: 2;
-  /* background-image: linear-gradient(
-    #000000 0%,
-    rgba(0, 0, 0, 0.55) 54.17%,
-    rgba(0, 0, 0, 0) 100%
-  ); */
+  z-index: 100;
 }
 .header-container {
   padding-top: 16px;
@@ -17,11 +12,6 @@
     rgba(0, 0, 0, 0.55) 54.17%,
     rgba(0, 0, 0, 0) 100%
   );
-  /* padding-top: 16px; */
-  /* padding-bottom: 9px; */
-  /* position: absolute; */
-  /* z-index: 10; */
-  /* top: 0; */
 
   margin-left: auto;
   margin-right: auto;
@@ -41,12 +31,10 @@
 }
 .header-nav-link {
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: var(--accent-color);
 }
 @media screen and (max-width: 360px) {
@@ -83,4 +71,71 @@
   width: 24px;
   height: 24px;
   fill: var(--accent-color);
+}
+.header-nav-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+@media screen and (max-width: 1023px) {
+  .header-nav-tel {
+    display: none;
+  }
+}
+/* ----------------------TABLET-------------------------- */
+@media screen and (min-width: 1024px) {
+  .header-logo {
+    font-size: 40px;
+  }
+  .header-nav-link {
+    display: flex;
+    font-size: 20px;
+  }
+  .header-nav-tel {
+    display: flex;
+    align-items: center;
+  }
+  .header-nav-item:nth-child(2n) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px 10px 14px;
+    margin-left: 32px;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .header-social-list {
+    display: none;
+  }
+}
+/* ----------------------DESKTOP----------------------- */
+@media screen and (min-width: 1200px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  .header-nav-item:first-child {
+    margin-left: 135px;
+  }
+  .header-social-list {
+    display: flex;
+    justify-content: space-between;
+    width: 112px;
+    margin-left: auto;
+  }
+  .header-social-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--accent-color);
+  }
+}
+.header-help {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  color: var(--accent-color);
 }
