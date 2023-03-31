@@ -37,9 +37,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .container {
-    max-width: 768px;
+    max-width: 1024px;
     padding-left: 47px;
     padding-right: 48px;
   }
