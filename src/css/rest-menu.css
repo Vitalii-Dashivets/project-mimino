@@ -13,9 +13,7 @@
     line-height:calc(37 / 32);
     text-transform: uppercase;
 }
-.table-menu {
-    max-width: 384px;  
-}
+
 
 .table-menu-part {
     width: 100%;
@@ -77,6 +75,13 @@
 .table-disk-distance {
     margin-top: 4px;
 }
+.table-menu-distance-down:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.table-disk-distanse-up:not(:first-child){
+    margin-top: 8px;
+}
 .button-rest {
     display: block;
     max-width: 236px;
@@ -84,7 +89,7 @@
     margin: 32px auto;
     padding: 14px 24px;
     background-color: var(--footer-color);
-    border: 2px solid #FFFDEE;
+    border: 2px solid var(--white-color);
     border-radius: 25px;
     color: var(--accent-color);
     font-style: normal;
@@ -92,5 +97,34 @@
     font-size: 14px;
     line-height: calc(20 / 14);
     letter-spacing: 0.02em;
+    transition: background-color var(--transition-speed),
+    border-color var(--transition-speed),
+    box-shadow var(--transition-speed);
     
+}
+.button-rest:hover,
+.button-rest:focus {
+    background-color:var(--white-color);
+    border-color: var(--accent-color);
+}
+.button-rest:visited {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 1024px) {
+.container {
+    padding-top: 58px;
+    }
+.rest-menu-title {
+    margin-bottom: 40px;
+}
+.table-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.button-rest{
+    margin: 40px 47px 40px auto;
+}
+
 }
