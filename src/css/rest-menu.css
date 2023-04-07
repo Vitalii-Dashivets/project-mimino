@@ -14,13 +14,11 @@
     text-transform: uppercase;
 }
 
-
 .table-menu-part {
-    width: 384px;
+    width: 100%;
     margin: 0;
-    box-sizing: content-box;
-    display: block;
     margin-bottom: 16px;
+    border-collapse: collapse;
 }
 
 .table-menu-title {
@@ -35,23 +33,25 @@
     
 }
 .table-menu-body-title{
-    display: inline-block;
-    width: 230px;
     color: var(--footer-color);
     font-weight: 500;
-    font-size: 16px;
-    line-height: calc(17 / 16);
+    font-size: 14px;
+    line-height: calc(17 / 14);
     letter-spacing: 0.02em;
+    
 }
+
 .table-menu-body-disk {
-    width: 230px;
     color: var(--footer-color);
     font-weight: 400;
     font-size: 10px;
     line-height: calc(12 / 10);
     letter-spacing: 0.02em;
+    padding-top: 4px;
+    padding-bottom: 8px;
     
 }
+
 .table-menu-weight {
     width: 70px;
     color: var(--footer-color);
@@ -73,20 +73,9 @@
     letter-spacing: 0.02em;
     text-align: end;
 }
-.table-disk-distance {
-    display: inline-block;
-    margin-top: 4px;
-}
 
-.table-menu-distance-down:not(:last-child) {
-    margin-bottom: 8px;
-}
 
-.table-disk-distance-up:not(:first-child){
-    margin-top: 8px;
-}
 .new-item {
-    padding-top: 8px;
     padding-bottom: 8px;
 }
 .button-rest {
@@ -130,9 +119,6 @@
     display: flex;
     gap:88px;
 }
-.table-menu-part {
-    width: 420px;
-}
 .button-rest{
     margin: 41px 47px 40px auto;
 }
@@ -163,5 +149,8 @@
 }
 .table-menu-body{
     width: 100%;
+}
+.table-menu-body-disk{
+    padding-bottom: 12px;
 }
 }
