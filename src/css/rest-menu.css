@@ -16,7 +16,7 @@
 
 
 .table-menu-part {
-    width: 100%;
+    width: 384px;
     margin: 0;
     box-sizing: content-box;
     display: block;
@@ -128,7 +128,10 @@
 }
 .table-menu {
     display: flex;
-    justify-content: space-between;
+    gap:88px;
+}
+.table-menu-part {
+    width: 420px;
 }
 .button-rest{
     margin: 41px 47px 40px auto;
@@ -151,5 +154,14 @@
 }
 .button-rest{
     margin: 32px 85px 60px auto;
+}
+.table-menu{
+    gap:140px;
+}
+.table-menu-part {
+    width: 466px;
+}
+.table-menu-body{
+    width: 100%;
 }
 }
