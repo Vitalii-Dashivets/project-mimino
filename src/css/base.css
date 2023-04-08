@@ -5,7 +5,7 @@
   --background-color-dark: #f0ecd6;
   --accent-color: rgba(243, 198, 83, 1);
   --text-brown: rgba(199, 144, 2, 1);
-  --footer-color: #000000;
+  --footer-color: rgba(14, 12, 7, 1);
   --white-color: #ffffff;
   --adress-color: #e5e5e5;
   --border-color: rgba(243, 198, 83, 0.7);
@@ -48,7 +48,7 @@ body {
   .container {
     max-width: 1200px;
     padding-left: 84px;
-    padding-right: 45px;
+    padding-right: 85px;
   }
 }
 
