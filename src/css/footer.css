@@ -1,0 +1,58 @@
+.footer-section {
+  background-color: var(--footer-color);
+  position: relative;
+  top: 300px;
+}
+.footer-container {
+  height: 240px;
+  display: flex;
+}
+.footer-logo {
+  font-family: 'Film P3', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: var(--accent-color);
+}
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 104px;
+}
+.footer-link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 112px;
+}
+.footer-social-link {
+}
+.footer-social-text {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.footer-social-icon {
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  fill: var(--border-color);
+}
+@media screen and (max-width: 1023px) {
+  .footer-social-text {
+    display: none;
+  }
+}
